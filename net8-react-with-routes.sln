@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net8-react-with-routes.Server", "net8-react-with-routes.Server\net8-react-with-routes.Server.csproj", "{B05DA5AC-B9D5-48EB-B4DE-0C9DCC8FEC6E}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "net8-react-with-routes.client", "net8-react-with-routes.client\net8-react-with-routes.client.esproj", "{40DD6C27-6698-49BB-B991-BDF4F170EA5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B05DA5AC-B9D5-48EB-B4DE-0C9DCC8FEC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05DA5AC-B9D5-48EB-B4DE-0C9DCC8FEC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05DA5AC-B9D5-48EB-B4DE-0C9DCC8FEC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05DA5AC-B9D5-48EB-B4DE-0C9DCC8FEC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DD6C27-6698-49BB-B991-BDF4F170EA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DD6C27-6698-49BB-B991-BDF4F170EA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DD6C27-6698-49BB-B991-BDF4F170EA5A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{40DD6C27-6698-49BB-B991-BDF4F170EA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DD6C27-6698-49BB-B991-BDF4F170EA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DD6C27-6698-49BB-B991-BDF4F170EA5A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C41E07DA-4B7C-4E92-9517-28FA73D4CF3B}
+	EndGlobalSection
+EndGlobal

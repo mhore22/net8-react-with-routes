@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/net8-react-with-routes.client/obj/Debug
+/net8-react-with-routes.Server/bin/Debug/net8.0
+/net8-react-with-routes.Server/obj
