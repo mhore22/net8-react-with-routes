@@ -3,7 +3,8 @@ By default, when you create a new React project with .Net 8 react-routes is not 
 This is a sample project that adds react-route to have routing on your React application.
 
 ## Prerequisites
-> You should have ***Visual Studio 2022*** and ***.Net 8 SDK*** installed on your machine.
+- You should have ***Visual Studio 2022*** and ***.Net 8 SDK*** installed on your machine.
+- You need to install NodeJS [v21.2.0](https://nodejs.org/dist/v21.2.0/)
 
 ## Additional npm packages needed
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom)
