@@ -75,3 +75,4 @@ export default AppRoutes;
 
 ## References
 - [Tutorial: Create an ASP.NET Core app with React in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/javascript/tutorial-asp-net-core-with-react?view=vs-2022)
+- [Tutorial: react-router-dom](https://reactrouter.com/en/main/start/tutorial)
