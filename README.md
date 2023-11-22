@@ -1,5 +1,5 @@
 # net8-react-with-routes
-By default, when you create a new React project with .Net 8 react-routes is not included unlike the previous React Template.
+By default, when you create a new React project with .Net 8, react-routes is not included unlike the previous React Template.
 This is a sample project that adds react-route to have routing on your React application.
 
 ## Prerequisites
