@@ -35,8 +35,25 @@ function WeatherForecast() {
             <h1 id="tabelLabel">Weather forecast</h1>
             <p>This component demonstrates fetching data from the server.</p>
             {contents}
+            <button onClick={() => postStripe()}>Refresh</button>
         </div>
     );
+
+    async function postStripe() {
+        fetch('products/create-checkout-products', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            // Include the email in the body of the request
+            body: JSON.stringify("test@example.com"),
+          })
+          .then(response => response.text())
+          .then(data => alert(data))
+          .catch((error) => {
+            console.error('Error:', error);
+          });
+    }
     
     async function populateWeatherData() {
         const response = await fetch('weatherforecast');
